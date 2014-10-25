@@ -1,0 +1,9 @@
+a:5:{i:0;s:207:"Error in file: "C:\xampp\apps\magento\htdocs\app\code\core\Mage\Paypal\sql\paypal_setup\upgrade-1.6.0.1-1.6.0.2.php" - SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'payment_tracking_id'";i:1;s:1002:"#0 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\Resource\Setup.php(437): Mage_Core_Model_Resource_Setup->_modifyResourceDb('upgrade', '1.6.0.1', '1.6.0.4')
+#2 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\Resource\Setup.php(320): Mage_Core_Model_Resource_Setup->_upgradeResourceDb('1.6.0.1', '1.6.0.4')
+#3 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 C:\xampp\apps\magento\htdocs\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#6 C:\xampp\apps\magento\htdocs\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 C:\xampp\apps\magento\htdocs\index.php(88): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:23:"/magento/index.php?tp=1";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}
